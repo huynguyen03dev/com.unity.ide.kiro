@@ -6,10 +6,6 @@
 - Add
 - Done
 
-> **Important Notice for Users Updating from Older Versions**
-> Violating these attribution rules may trigger warnings in Unity.
-> If you experience errors during the update, please remove the existing package before reinstalling the new one to avoid conflicts.
-
 ## Kiro Extension Installation
 
 The Kiro extension marketplace does not yet support extensions needed for Unity development. To use this package with Kiro, you'll need to manually install the Unity IDE extensions:
