@@ -1,7 +1,21 @@
 {
   "name": "com.huynguyen03dev.ide.kiro",
   "displayName": "Kiro Editor",
-  "description": "Amazon Kiro IDE integration for Unity. Provides seamless integration with Kiro's agentic development environment, including support for generating csproj files for IntelliSense, auto-discovery of Kiro installations, and enhanced debugging capabilities.",
+  "description": "Unity IDE integration for Amazon Kiro - Seamless Unity development with Kiro's agentic AI coding environment. Includes IntelliSense support, project generation, and debugging tools for Unity developers using Kiro IDE.",
+  "keywords": [
+    "unity",
+    "kiro",
+    "kiro-ide",
+    "amazon-kiro",
+    "unity-editor",
+    "ide-integration",
+    "intellisense",
+    "csharp",
+    "unity-development",
+    "agentic-ai",
+    "code-generation",
+    "debugging"
+  ],
   "version": "2.0.25",
   "unity": "2019.4",
   "unityRelease": "25f1",
