@@ -135,7 +135,7 @@ namespace Microsoft.Unity.VisualStudio.Editor
 				cursorStoragePath = Path.Combine(userProfile, "AppData", "Roaming", "cursor", "User", "workspaceStorage");
 #endif
 				
-				Debug.Log($"[Cursor] Looking for workspaces in: {cursorStoragePath}");
+				Debug.Log($"[Kiro] Looking for workspaces in: {cursorStoragePath}");
 				
 				if (Directory.Exists(cursorStoragePath))
 				{
@@ -191,21 +191,21 @@ namespace Microsoft.Unity.VisualStudio.Editor
 						}
 						catch (Exception ex)
 						{
-							Debug.LogWarning($"[Cursor] Error reading workspace state file: {ex.Message}");
+							Debug.LogWarning($"[Kiro] Error reading workspace state file: {ex.Message}");
 							continue;
 						}
 					}
 				}
 				else
 				{
-					Debug.LogWarning($"[Cursor] Workspace storage directory not found: {cursorStoragePath}");
+					Debug.LogWarning($"[Kiro] Workspace storage directory not found: {cursorStoragePath}");
 				}
 
 				return workspaces.Distinct().ToArray();
 			}
 			catch (Exception ex)
 			{
-				Debug.LogError($"[Cursor] Error getting workspace directory: {ex.Message}");
+				Debug.LogError($"[Kiro] Error getting workspace directory: {ex.Message}");
 				return null;
 			}
 		}
